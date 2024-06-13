@@ -1,6 +1,6 @@
 <?php
     // Ruta al archivo JSON de planes pospago
-    $pathJSON = '../data/colombia.min.json';
+    $pathJSON = 'data/colombia.min.json';
     $jsonContent = file_get_contents($pathJSON);
 
     //echo "<script>console.log('Debug Objects: " . $jsonContent . "' );</script>";
@@ -19,11 +19,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/input.css">
-    <link rel="stylesheet" href="assets/css/select-option.css">
-    <link rel="stylesheet" href="assets/css/buttons.css">
-    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="public/public/assets/css/styles.css">
+    <link rel="stylesheet" href="public/public/assets/css/input.css">
+    <link rel="stylesheet" href="public/public/assets/css/select-option.css">
+    <link rel="stylesheet" href="public/public/assets/css/buttons.css">
+    <link rel="stylesheet" href="public/public/assets/fonts/fonts.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -46,7 +46,7 @@
     <section class="bg-gray-light validate-box">        
         <div class="address-validate">
             <!-- <div class="go-back roboto-regular">
-                <img src="assets/icons/arrow-left.svg" alt="go back" />
+                <img src="public/assets/icons/arrow-left.svg" alt="go back" />
                 Volver
             </div> -->
             <div class="d-space-between">
@@ -54,7 +54,7 @@
                 <button class='btn-secondary roboto-medium' onclick="goRegisters()">Ver registros</button>
             </div>
             <!-- <h2>¡Vamos a validar tu dirección!</h2> -->
-            <form class="form" id="AddressForm" action="../admin/controller/adminController.php" method="post">
+            <form class="form" id="AddressForm" action="admin/controller/adminController.php" method="post">
                 <h3>Datos personales</h3>
                 <div class="col-3">
                     <div class="form-input">
@@ -65,7 +65,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/id-card-light.svg" />
+                            <img src="public/assets/icons/id-card-light.svg" />
                         </div>                        
                     </div>
                     <div class="form-input">
@@ -76,7 +76,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/phone.svg" />
+                            <img src="public/assets/icons/phone.svg" />
                         </div>                        
                     </div>
                     <div class="form-input">
@@ -87,7 +87,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/email-light.svg" />
+                            <img src="public/assets/icons/email-light.svg" />
                         </div>                        
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/pin-light.svg" />
+                            <img src="public/assets/icons/pin-light.svg" />
                         </div>                        
                     </div>
                 </div>
@@ -159,7 +159,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/pin-light.svg" />
+                            <img src="public/assets/icons/pin-light.svg" />
                         </div>                        
                     </div>
                     <div class="form-input">
@@ -170,7 +170,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/pin-light.svg" />
+                            <img src="public/assets/icons/pin-light.svg" />
                         </div>                        
                     </div>
                     <div class="form-input">
@@ -181,7 +181,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/pin-light.svg" />
+                            <img src="public/assets/icons/pin-light.svg" />
                         </div>                        
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                             </label>
                         </div>
                         <div class="icon-box">
-                            <img src="assets/icons/question.svg" alt="Dirección" />
+                            <img src="public/assets/icons/question.svg" alt="Dirección" />
                         </div>                        
                     </div>
                 </div>                
@@ -224,7 +224,7 @@
         }
 
         function goRegisters() {
-            window.location.href = "../admin/view/ViewUser.php";
+            window.location.href = "./admin/view/ViewUser.php";
         }
     </script>
     <script>
