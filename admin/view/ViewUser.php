@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="../../public/assets/css/styles.css">
     <link rel="stylesheet" href="../../public/assets/css/buttons.css">
     <link rel="stylesheet" href="../../public/assets/fonts/fonts.css">
-    <title>Document</title>
+    <title>Listado de usuarios sin cobertura</title>
 </head>
 <body>
     <section class="bg-gray-light validate-box">        
