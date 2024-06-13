@@ -50,11 +50,11 @@
                 Volver
             </div> -->
             <div class="d-space-between">
-                <h2 class="mb-0">¡Vamos a validar tu dirección!</h2>
+                <h2 class="mb-0">Crear usuario sin cobertura</h2>
                 <button class='btn-secondary roboto-medium' onclick="goRegisters()">Ver registros</button>
             </div>
             <!-- <h2>¡Vamos a validar tu dirección!</h2> -->
-            <form class="form" id="AddressForm" action="../admin/controller/adminController.php" method="post">
+            <form class="form" id="AddressForm" action="../admin/controller/AdminController.php" method="post">
                 <h3>Datos personales</h3>
                 <div class="col-3">
                     <div class="form-input">

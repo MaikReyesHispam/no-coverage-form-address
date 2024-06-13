@@ -94,5 +94,17 @@
         "secondary_road_number": "12",
         "plate": "23",
         "complements": "SDASDASDA"
+    },
+    {
+        "document_number": "11223345566",
+        "phone": "665987989",
+        "email": "ares01_1@hotmail.com",
+        "department": "Cundinamarca",
+        "city": "Bojac\u00e1",
+        "type_of_address": "avenida",
+        "main_road_number": "122",
+        "secondary_road_number": "22",
+        "plate": "22",
+        "complements": "Apto 308"
     }
 ]
